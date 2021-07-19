@@ -52,4 +52,4 @@ metadata:
   name: nginx-secret
 type: Opaque
 data:
-  index.html: PHBhdGg6c2VjcmV0L2RhdGEvbmdpbnhzZWNyZXQjbWVzc2FnZT4K
+  index.html: {{ .Values.indexMessage | b64enc }}
