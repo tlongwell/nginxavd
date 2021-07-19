@@ -52,4 +52,4 @@ metadata:
   name: nginx-secret
 type: Opaque
 data:
-  index.html: PHBhdGg6c2VjcmV0L25naW54c2VjcmV0I21lc3NhZ2U+Cg==
+  index.html: PHBhdGg6c2VjcmV0L2RhdGEvbmdpbnhzZWNyZXQjbWVzc2FnZT4K
